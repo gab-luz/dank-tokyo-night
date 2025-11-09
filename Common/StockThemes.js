@@ -276,6 +276,24 @@ const StockThemes = {
             surfaceContainerHigh: "#322826",
             surfaceContainerHighest: "#3d3231"
         },
+        tokyoNight: {
+            name: "Tokyo Night",
+            primary: "#7aa2f7",
+            primaryText: "#05070f",
+            primaryContainer: "#1f2335",
+            secondary: "#bb9af7",
+            surface: "#16161e",
+            surfaceText: "#c0caf5",
+            surfaceVariant: "#1f2335",
+            surfaceVariantText: "#a9b1d6",
+            surfaceTint: "#7aa2f7",
+            background: "#1a1b26",
+            backgroundText: "#c0caf5",
+            outline: "#414868",
+            surfaceContainer: "#1f2335",
+            surfaceContainerHigh: "#252a40",
+            surfaceContainerHighest: "#2a3158"
+        },
         monochrome: {
             name: "Monochrome",
             primary: "#ffffff",
@@ -462,6 +480,24 @@ const StockThemes = {
             surfaceContainerHigh: "#f6e4e2",
             surfaceContainerHighest: "#f1dedc"
         },
+        tokyoNight: {
+            name: "Tokyo Night Light",
+            primary: "#2e7de9",
+            primaryText: "#ffffff",
+            primaryContainer: "#d6e4ff",
+            secondary: "#9854f1",
+            surface: "#f5f7ff",
+            surfaceText: "#1f2335",
+            surfaceVariant: "#d5d9e9",
+            surfaceVariantText: "#414868",
+            surfaceTint: "#2e7de9",
+            background: "#e9edf5",
+            backgroundText: "#1f2335",
+            outline: "#7c88b6",
+            surfaceContainer: "#e1e6f3",
+            surfaceContainerHigh: "#dbe0ef",
+            surfaceContainerHighest: "#d4daeb"
+        },
         monochrome: {
             name: "Monochrome Light",
             primary: "#2b303c",
@@ -490,7 +526,7 @@ const StockThemes = {
 const ThemeCategories = {
     GENERIC: {
         name: "Generic",
-        variants: ["blue", "purple", "green", "orange", "red", "cyan", "pink", "amber", "coral", "monochrome"]
+        variants: ["blue", "purple", "green", "orange", "red", "cyan", "pink", "amber", "coral", "monochrome", "tokyoNight"]
     },
     CATPPUCCIN: {
         name: "Catppuccin",
@@ -509,6 +545,7 @@ const ThemeNames = {
     AMBER: "amber",
     CORAL: "coral",
     MONOCHROME: "monochrome",
+    TOKYO_NIGHT: "tokyoNight",
     DYNAMIC: "dynamic"
 }
 

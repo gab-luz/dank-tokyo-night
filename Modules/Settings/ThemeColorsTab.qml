@@ -275,7 +275,7 @@ Item {
                                 anchors.horizontalCenter: parent.horizontalCenter
 
                                 Repeater {
-                                    model: ["cyan", "pink", "amber", "coral", "monochrome"]
+                                    model: ["cyan", "pink", "amber", "coral", "monochrome", "tokyoNight"]
 
                                     Rectangle {
                                         property string themeName: modelData
