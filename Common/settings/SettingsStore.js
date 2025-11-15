@@ -36,7 +36,7 @@ function migrate(root, jsonObj) {
     if (!jsonObj) return;
 
     if (jsonObj.themeIndex !== undefined || jsonObj.themeIsDynamic !== undefined) {
-        var themeNames = ["blue", "deepBlue", "purple", "green", "orange", "red", "cyan", "pink", "amber", "coral"];
+        var themeNames = ["blue", "deepBlue", "purple", "green", "orange", "red", "cyan", "pink", "amber", "coral", "tokyoNight"];
         if (jsonObj.themeIsDynamic) {
             root.currentThemeName = "dynamic";
         } else if (jsonObj.themeIndex >= 0 && jsonObj.themeIndex < themeNames.length) {
